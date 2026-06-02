@@ -73,7 +73,7 @@ while True:
             for staff in staff_list:
                 if staff['id'] == int(delete_id):
                     found = True
-                    staff_list.pop(staff)
+                    staff_list.remove(staff)
                     print("đã xóa thành công")
 
             if not found:
